@@ -4,7 +4,7 @@ require("dotenv").config();
 const {MONGODB_URL}=process.env.MONGODB_URL;
 
 exports.connect=()=>{
-    mongoose.connect("mongodb://localhost:27017/welnessArvyax", {
+    mongoose.connect("mongodb+srv://mohdadeeb409:vB0lrywd5jywMqU7@cluster0.pmmejpc.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0", {
         useNewUrlParser: true,
         useUnifiedTopology: true,
     })
