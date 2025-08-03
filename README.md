@@ -28,12 +28,16 @@ cd WELLNESS-APP
 
 ### 2.Backend Setup
 cd backend
+
 npm install
+
 npm run dev
 
 ### 3. Frontend Setup
 cd ../frontend
+
 npm install
+
 npm start
 
 ## API documentation
