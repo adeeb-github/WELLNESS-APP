@@ -15,7 +15,17 @@ Users can explore wellness sessions, upload session data, and manage content in 
 ---
 
 ## 📦 Project Structure
-<pre><code> ``` WELLNESS-APP/ ├── backend/ # Node.js backend │ ├── controllers/ │ ├── models/ │ ├── routes/ │ ├── config/ │ └── server.js ├── frontend/ # React frontend │ ├── src/ │ └── package.json └── README.md ``` </code></pre>
+WELLNESS-APP/
+├── backend/ # Node.js backend
+│ ├── controllers/
+│ ├── models/
+│ ├── routes/
+│ ├── config/
+│ └── server.js
+├── frontend/ # React frontend
+│ ├── src/
+│ └── package.json
+└── README.md
 ---
 
 ## 🛠️ Setup Instructions
