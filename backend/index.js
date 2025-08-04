@@ -18,7 +18,7 @@ app.use(express.json());
 
 app.use(cors(
     {
-        origin:"https://soulnest-vsup.vercel.app/",
+        origin:"https://soulnest-vsup.vercel.app",
         credentials:true,
         methods:["GET","POST","PUT","DELETE"],
         allowedHeaders:["Content-Type","Authorization"],
